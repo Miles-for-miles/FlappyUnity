@@ -1,9 +1,10 @@
 fileFormatVersion: 2
-guid: 4e9162f540ab1654691dc915fc5ce65a
+guid: 29f0d72e6a799914fbae7c964264a4e2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PipePrefab: {fileID: 8891798510826825015, guid: dae6d237ad3d95648a2d1c2984d787a0, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
