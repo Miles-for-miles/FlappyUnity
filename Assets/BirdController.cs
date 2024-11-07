@@ -20,11 +20,13 @@ public class BirdController : MonoBehaviour
 
     private void Update () {
         ScoreText.text = "Score: " + Score.ToString();
+
         if (Input.GetKeyDown("space") && Started) {
             FlappyRigidbody.velocity = new Vector2(FlappyRigidbody.velocity.x, 5f);
         } else if (Input.GetKeyDown("space") && !Started) {
             Started = true;
             FlappyRigidbody.gravityScale = 1;
+            SinMove.DestroyStart();
         }
     }
 
